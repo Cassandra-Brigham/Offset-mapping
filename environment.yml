@@ -1,0 +1,13 @@
+# environment.yml
+
+name: 3dep-aws-download
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12            
+  - boto3
+  - requests
+  - geopandas
+  - shapely
+  - tqdm
